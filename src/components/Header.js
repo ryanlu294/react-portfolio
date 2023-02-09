@@ -33,6 +33,7 @@ export default class Header extends Component {
                   Works
                 </a>
               </li>
+
               {/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
@@ -50,7 +51,7 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1 className="responsive-headline">Hi, I'm Ryan.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                {resumeData.aboutMe}
+                {resumeData.roleDescription}
               </h3>
               <hr />
               <ul className="social">

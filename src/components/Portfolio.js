@@ -14,26 +14,35 @@ export default class Porfolio extends Component {
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
                   return (
-                    <div className="columns portfolio-item" key={item.huburl}>
-                      <div>
-                        <a href={item.huburl} target="_blank" rel="noreferrer">
-                          <h4>{item.name}</h4>
-                        </a>
-                      </div>
-                      <div className="item-wrap">
-                        <img
-                          src={`${item.imgurl}`}
-                          className="item-img"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>{item.description}</h5>
-                            <br></br>
+                    <>
+                      <div className="columns portfolio-item" key={item.huburl}>
+                        <div className="portfolio-title">
+                          <a
+                            href={item.huburl}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <h4>{item.name}</h4>
+                            <img src="/images/link.png" alt=""></img>
+                          </a>
+                        </div>
+                        <div className="item-wrap">
+                          <img
+                            src={`${item.imgurl}`}
+                            className="item-img"
+                            alt=""
+                          />
+                          <div className="overlay">
+                            <div className="portfolio-item-meta">
+                              <h5>{item.description}</h5>
+                            </div>
                           </div>
                         </div>
+                        <div className="portfolio-description">
+                          <h5>{item.stack}</h5>
+                        </div>
                       </div>
-                    </div>
+                    </>
                   );
                 })}
             </div>
