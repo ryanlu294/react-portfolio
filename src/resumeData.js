@@ -1,7 +1,6 @@
 let resumeData = {
   imagebaseurl: "https://ryanlu294.github.io/",
   name: "Ryan Lu",
-  role: "full stack developer",
   linkedinId: "ryanlu294",
   skypeid: "Your skypeid",
   roleDescription:
@@ -23,10 +22,11 @@ let resumeData = {
     //   "className":"fa fa-twitter"
     // }
   ],
-  aboutme:
-    "I'm Ryan, a full stack software engineer that loves to spend time debugging code and build software with users in mind. I believe the key to an amazing application is taking action to solve problems autonomously and active communication between team members. I strive to inspire those around me and provide unique insights to difficult problems. In my spare time, I love playing video games and building mechanical keyboards!",
+  aboutMe:
+    "I'm a full stack software engineer that loves to spend time debugging code and build software with users in mind. I believe the key to an amazing application is taking action to solve problems autonomously and active communication between team members. I strive to inspire those around me and provide unique insights to difficult problems. In my spare time, I love playing video games and building mechanical keyboards!",
   address: "Riverside, CA",
   website: "https://ryanlu294.github.io",
+  email: "ryanlu294@gmail.com",
   education: [
     {
       UniversityName: "Hack Reactor",
@@ -79,24 +79,22 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "Chefs4U",
+      description: "React | FastAPI | PostgreSQL",
+      imgurl: "./images/portfolio/chefs4u.png",
+      huburl: "https://gitlab.com/chefs4u/chefs4u",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "CarCar",
+      description: "React | Django | PostgreSQL",
+      imgurl: "./images/portfolio/carcar.png",
+      huburl: "https://github.com/ryanlu294/CarCar",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "Spotify Depparw",
+      description: "React | Spotify API",
+      imgurl: "./images/portfolio/spotify-depparw.png",
+      huburl: "https://github.com/ryanlu294/spotify-depparw",
     },
   ],
   // testimonials: [
