@@ -91,7 +91,7 @@ let resumeData = {
       huburl: "https://github.com/ryanlu294/CarCar",
     },
     {
-      name: "Spotify Depparw",
+      name: "Spotify depparW",
       description: "React | Spotify API",
       imgurl: "./images/portfolio/spotify-depparw.png",
       huburl: "https://github.com/ryanlu294/spotify-depparw",
