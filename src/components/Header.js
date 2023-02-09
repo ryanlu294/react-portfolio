@@ -20,7 +20,7 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#about">
-                  About
+                  Contact
                 </a>
               </li>
               <li>
@@ -38,11 +38,11 @@ export default class Header extends Component {
                   Testimonials
                 </a>
               </li> */}
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#contact">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
