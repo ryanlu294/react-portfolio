@@ -517,6 +517,21 @@ ul#nav li.current a {
   display: inline-block;
   padding-right: 0.15em;
 }
+.portfolio-description {
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+.portfolio-description > a > h4 {
+  padding-right: 0.5em;
+  display: inline-block;
+  font: 14px "opensans-light", sans-serif;
+}
+.portfolio-description > a > img {
+  width: 1.25em;
+}
+#deployed {
+  float: right;
+}
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -575,10 +590,6 @@ ul#nav li.current a {
   font: 12px/18px "opensans-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
-}
-.portfolio-description h5 {
-  padding-top: 5%;
-  font: 18px "opensans-light", sans-serif;
 }
 
 /* on hover */
