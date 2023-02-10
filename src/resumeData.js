@@ -85,6 +85,7 @@ let resumeData = {
       stack: "React | FastAPI | PostgreSQL",
       imgurl: "./images/portfolio/chefs4u.png",
       huburl: "https://gitlab.com/chefs4u/chefs4u",
+      deployedurl: "https://chefs4u.gitlab.io/chefs4u/",
     },
     {
       name: "CarCar",

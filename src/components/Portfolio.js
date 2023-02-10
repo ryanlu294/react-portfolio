@@ -17,14 +17,7 @@ export default class Porfolio extends Component {
                     <>
                       <div className="columns portfolio-item" key={item.huburl}>
                         <div className="portfolio-title">
-                          <a
-                            href={item.huburl}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <h4>{item.name}</h4>
-                            <img src="/images/link.png" alt=""></img>
-                          </a>
+                          <h4>{item.name}</h4>
                         </div>
                         <div className="item-wrap">
                           <img
@@ -35,11 +28,23 @@ export default class Porfolio extends Component {
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.description}</h5>
+                              <br></br>
+                              <h5>{item.stack}</h5>
                             </div>
                           </div>
                         </div>
                         <div className="portfolio-description">
-                          <h5>{item.stack}</h5>
+                          <a href={item.huburl}>
+                            <h4>GitHub</h4>
+                            <img src="/images/github.png" alt=""></img>
+                          </a>
+
+                          {item.deployedurl && (
+                            <a href={item.deployedurl} id="deployed">
+                              <h4>Link</h4>
+                              <img src="/images/link.png" alt=""></img>
+                            </a>
+                          )}
                         </div>
                       </div>
                     </>
